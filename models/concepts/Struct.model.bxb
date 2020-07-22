@@ -1,0 +1,6 @@
+structure (Struct) {
+  property (dataUri) {
+    type (viv.core.Text)
+    min (Required) max (One)
+  }
+}

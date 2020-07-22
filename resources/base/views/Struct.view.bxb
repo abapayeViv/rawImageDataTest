@@ -1,0 +1,15 @@
+result-view {
+  match: Struct (this)
+
+  render {
+    layout {
+      section {
+        content {
+          image {
+            url ("#{value(this.dataUri)}")  
+          }
+        }
+      }
+    }
+  }
+}
